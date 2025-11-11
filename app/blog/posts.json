@@ -1,0 +1,478 @@
+{
+  "posts": [
+    {
+      "id": "boots",
+      "date": "November 03, 2025",
+      "volume": 2,
+      "title": "Boots, November 03"
+    },
+    {
+      "id": "temporal-ecs-neural-dynamics",
+      "date": "October 28, 2025",
+      "volume": 2,
+      "title": "Notes on Temporal ECS Neural Dynamics, October 28"
+    },
+    {
+      "id": "switchyard",
+      "date": "October 18, 2025",
+      "volume": 2,
+      "title": "Switchyard, June 2024"
+    },
+    {
+      "id": "indecision",
+      "date": "October 7, 2025",
+      "volume": 2,
+      "title": "Indecision, October 7"
+    },
+    {
+      "id": "too-old",
+      "date": "September 16, 2025",
+      "volume": 2,
+      "title": "Too Old, September 16"
+    },
+    {
+      "id": "reading-list-q3",
+      "date": "July 15, 2025",
+      "volume": 2,
+      "title": "Q3 Reading List, July 15"
+    },
+    {
+      "id": "postponing-xpo",
+      "date": "May 31, 2025",
+      "volume": 2,
+      "title": "XPO, May 31"
+    },
+    {
+      "id": "generations-of-adam",
+      "date": "May 23, 2025",
+      "volume": 2,
+      "title": "Generations of Adam, May 23"
+    },
+    {
+      "id": "forearms",
+      "date": "May 15, 2025",
+      "volume": 1,
+      "title": "Forearms"
+    },
+    {
+      "id": "order-my-steps",
+      "date": "May 15, 2025",
+      "volume": 1,
+      "title": "Order my steps"
+    },
+    {
+      "id": "sleep",
+      "date": "May 13, 2025",
+      "volume": 1,
+      "title": "Sleep"
+    },
+    {
+      "id": "strength",
+      "date": "May 12, 2025",
+      "volume": 1,
+      "title": "Strength"
+    },
+    {
+      "id": "belonging",
+      "date": "May 12, 2025",
+      "volume": 1,
+      "title": "Belonging"
+    },
+    {
+      "id": "bus",
+      "date": "May 11, 2025",
+      "volume": 1,
+      "title": "i thought about stealing a bus this morning"
+    },
+    {
+      "id": "open-source",
+      "date": "May 09, 2025",
+      "volume": 1,
+      "title": "Open-Source"
+    },
+    {
+      "id": "gratitude",
+      "date": "April 30, 2025",
+      "volume": 1,
+      "title": "Gratitude"
+    },
+    {
+      "id": "porn",
+      "date": "April 27, 2025",
+      "volume": 1,
+      "title": "Porn"
+    },
+    {
+      "id": "48.06",
+      "date": "April 24, 2025",
+      "volume": 1,
+      "title": "48.06"
+    },
+    {
+      "id": "04-21",
+      "date": "April 21, 2025",
+      "volume": 1,
+      "title": "April 21, 2025"
+    },
+    {
+      "id": "04-18",
+      "date": "April 18, 2025",
+      "volume": 1,
+      "title": "April 18, 2025"
+    },
+    {
+      "id": "birthdays",
+      "date": "April 17, 2025",
+      "volume": 1,
+      "title": "Birthdays"
+    },
+    {
+      "id": "daredevil-s1e9",
+      "date": "April 16, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E9"
+    },
+    {
+      "id": "on-shelters",
+      "date": "April 11, 2025",
+      "volume": 1,
+      "title": "On: Shelters"
+    },
+    {
+      "id": "progress",
+      "date": "April 10, 2025",
+      "volume": 1,
+      "title": "Progress"
+    },
+    {
+      "id": "daredevil-s1e8",
+      "date": "April 10, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E8"
+    },
+    {
+      "id": "uw-essay",
+      "date": "April 09, 2025",
+      "volume": 1,
+      "title": "uw-essay.docx"
+    },
+    {
+      "id": "daredevil-s1e7",
+      "date": "April 02, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E7"
+    },
+    {
+      "id": "back-up",
+      "date": "March 29, 2025",
+      "volume": 1,
+      "title": "Back up"
+    },
+    {
+      "id": "26",
+      "date": "March 27, 2025",
+      "volume": 1,
+      "title": "26"
+    },
+    {
+      "id": "asante-mama",
+      "date": "March 26, 2025",
+      "volume": 1,
+      "title": "Asante Mama"
+    },
+    {
+      "id": "daredevil-s1e6",
+      "date": "March 26, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E6"
+    },
+    {
+      "id": "daredevil-s1e5",
+      "date": "March 26, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E5"
+    },
+    {
+      "id": "see-you-soon",
+      "date": "March 26, 2025",
+      "volume": 1,
+      "title": "See you soon"
+    },
+    {
+      "id": "the-senses",
+      "date": "March 25, 2025",
+      "volume": 1,
+      "title": "The senses"
+    },
+    {
+      "id": "side-note",
+      "date": "March 20, 2025",
+      "volume": 1,
+      "title": "Side Note"
+    },
+    {
+      "id": "daredevil-s1e4",
+      "date": "March 19, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E4"
+    },
+    {
+      "id": "fake-love",
+      "date": "March 15, 2025",
+      "volume": 1,
+      "title": "Fake Love"
+    },
+    {
+      "id": "i-forgot-your-number",
+      "date": "March 12, 2025",
+      "volume": 1,
+      "title": "i forgot your number"
+    },
+    {
+      "id": "daredevil-s1e3",
+      "date": "March 12, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E3"
+    },
+    {
+      "id": "new-character",
+      "date": "March 12, 2025",
+      "volume": 1,
+      "title": "New Character"
+    },
+    {
+      "id": "screen-time",
+      "date": "March 11, 2025",
+      "volume": 1,
+      "title": "Screen Time"
+    },
+    {
+      "id": "daylight-savings-time",
+      "date": "March 09, 2025",
+      "volume": 1,
+      "title": "Daylight Savings Time"
+    },
+    {
+      "id": "daredevil-s1e2",
+      "date": "March 08, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E2"
+    },
+    {
+      "id": "daredevil-s1e1",
+      "date": "March 07, 2025",
+      "volume": 1,
+      "title": "Daredevil: Born Again S1E1"
+    },
+    {
+      "id": "snoqualmie",
+      "date": "March 07, 2025",
+      "volume": 1,
+      "title": "Snoqualmie"
+    },
+    {
+      "id": "if",
+      "date": "March 06, 2025",
+      "volume": 1,
+      "title": "If"
+    },
+    {
+      "id": "thank-you",
+      "date": "March 06, 2025",
+      "volume": 1,
+      "title": "Thank You"
+    },
+    {
+      "id": "papa",
+      "date": "March 03, 2025",
+      "volume": 1,
+      "title": "Papa"
+    },
+    {
+      "id": "going-crazy",
+      "date": "March 02, 2025",
+      "volume": 1,
+      "title": "Going Crazy"
+    },
+    {
+      "id": "shrimp",
+      "date": "March 02, 2025",
+      "volume": 1,
+      "title": "Shrimp"
+    },
+    {
+      "id": "excerpt-bukowski",
+      "date": "March 01, 2025",
+      "volume": 1,
+      "title": "Excerpt, Bukowski"
+    },
+    {
+      "id": "open-the-window",
+      "date": "March 01, 2025",
+      "volume": 1,
+      "title": "Open the Window"
+    },
+    {
+      "id": "swahili",
+      "date": "February 28, 2025",
+      "volume": 1,
+      "title": "Swahili"
+    },
+    {
+      "id": "rejection",
+      "date": "February 25, 2025",
+      "volume": 1,
+      "title": "Rejection"
+    },
+    {
+      "id": "a-playlist-for-hard-times",
+      "date": "February 24, 2025",
+      "volume": 1,
+      "title": "A Playlist for Hard Times"
+    },
+    {
+      "id": "note-to-self",
+      "date": "February 23, 2025",
+      "volume": 1,
+      "title": "Note to Self"
+    },
+    {
+      "id": "2-the-world",
+      "date": "February 23, 2025",
+      "volume": 1,
+      "title": "2 The World"
+    },
+    {
+      "id": "when-hell-finds-you",
+      "date": "February, 23, 2025",
+      "volume": 1,
+      "title": "When Hell Finds You"
+    },
+    {
+      "id": "take-care",
+      "date": "February 22, 2025",
+      "volume": 1,
+      "title": "Take Care"
+    },
+    {
+      "id": "free",
+      "date": "February 19, 2025",
+      "volume": 1,
+      "title": "Free"
+    },
+    {
+      "id": "bamboozled",
+      "date": "February 18, 2025",
+      "volume": 1,
+      "title": "Bamboozled"
+    },
+    {
+      "id": "happy-place",
+      "date": "February 15, 2025",
+      "volume": 1,
+      "title": "Happy Place"
+    },
+    {
+      "id": "bus-fare",
+      "date": "February 13, 2025",
+      "volume": 1,
+      "title": "Bus Fare"
+    },
+    {
+      "id": "test-of-a-man",
+      "date": "January 31, 2025",
+      "volume": 1,
+      "title": "Test of a Man"
+    },
+    {
+      "id": "reflections",
+      "date": "January 12, 2025",
+      "volume": 1,
+      "title": "Reflections: A Path Toward Accountability and Change"
+    },
+    {
+      "id": "here-i-am",
+      "date": "January 11, 2025",
+      "volume": 1,
+      "title": "Here I am"
+    },
+    {
+      "id": "right-here-right-now",
+      "date": "December 18, 2024",
+      "volume": 1,
+      "title": "Right here, right now"
+    },
+    {
+      "id": "power",
+      "date": "December 17, 2024",
+      "volume": 1,
+      "title": "Power"
+    },
+    {
+      "id": "emotions",
+      "date": "December 16, 2024",
+      "volume": 1,
+      "title": "Emotions"
+    },
+    {
+      "id": "compute",
+      "date": "December 09, 2024",
+      "volume": 1,
+      "title": "Compute, compute, compute!"
+    },
+    {
+      "id": "on-love",
+      "date": "November 20, 2024",
+      "volume": 1,
+      "title": "On: Love"
+    },
+    {
+      "id": "untitled-02",
+      "date": "November 19, 2024",
+      "volume": 1,
+      "title": "Untitled 02"
+    },
+    {
+      "id": "from-the-void",
+      "date": "November 14, 2024",
+      "volume": 1,
+      "title": "From the Void"
+    },
+    {
+      "id": "xpo",
+      "date": "November 13, 2024",
+      "volume": 1,
+      "title": "XPO"
+    },
+    {
+      "id": "untitled-01",
+      "date": "November 13, 2024",
+      "volume": 1,
+      "title": "Untitled 01"
+    },
+    {
+      "id": "dancing-with-the-phoenix",
+      "date": "November 12, 2024",
+      "volume": 1,
+      "title": "Dancing With The Phoenix (GPT-4o)"
+    },
+    {
+      "id": "invictus",
+      "date": "November 12, 2024",
+      "volume": 1,
+      "title": "Invictus"
+    },
+    {
+      "id": "love-is",
+      "date": "November 11, 2024",
+      "volume": 1,
+      "title": "Love Is"
+    },
+    {
+      "id": "cruise-across-the-country",
+      "date": "October 31, 2024",
+      "volume": 1,
+      "title": "Cruise Across the Country"
+    }
+  ]
+}

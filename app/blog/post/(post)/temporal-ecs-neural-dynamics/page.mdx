@@ -1,0 +1,83 @@
+export const metadata = {
+    title: "Notes on Temporal ECS Neural Dynamics",
+    description: "Years of neural research come to fruition."
+}
+
+Computation often executes and forgets. Biology endures. 
+
+Temporal ECS Neural Dynamics model computation as a continuous, adaptive process.\
+Time is the medium in which structure and learning coexist.  
+
+The architecture separates responsibilities into three layers:
+
+1. **Compute** — orchestrates and executes work in parallel.  
+2. **Simulation** — defines entities, components, and systems. 
+3. **Neural Dynamics** — integrates experience and adapts behavior continuously.  
+
+---
+
+## 1. Compute — parallel execution
+
+Compute manages **parallel execution of jobs**, including neuron updates.
+
+- **Parallelism:** Large workloads update simultaneously.  
+- **Dependency resolution:** Jobs execute only when prerequisites are satisfied.  
+
+Compute enables scalability, supporting large neural populations.
+
+---
+
+## 2. Simulation — structure and persistence
+
+Simulation defines *what exists*. Entities, components, and groups provide stable, contiguous state.  
+
+- **Persistent memory:** Components maintain state across cycles.  
+- **Pure transformations:** Systems evolve state; scheduling is external.  
+- **Temporal continuity:** State accumulates and decays naturally.  
+
+Simulation is the body of the system.
+
+---
+
+## 3. Neural Dynamics — continuous adaptation
+
+Neural dynamics define *how the system adapts*, inhabiting the simulation and acting on its state.\
+Neurons and synapses exist as components within the ECS.  
+
+- **Temporal integration:** Potentials evolve continuously with inputs, decay, and feedback.  
+- **Plasticity:** Synapses adapt dynamically, encoding memory and learning.  
+- **Perception-action coupling:** Neural outputs modify ECS state.  
+- **Parallel updates:** Compute executes neuron updates in parallel, enabling scale.  
+
+---
+
+## 4. Unified temporal flow
+
+The system operates as a continuous loop:
+
+1. Data is streamed into the system through a network.
+2. Simulation evolves component states.  
+3. Neural dynamics integrate inputs and produce outputs.  
+
+---
+
+## 5. Computation that endures
+
+Temporal ECS Neural Dynamics transforms computation into a living substrate:
+
+- **Compute** provides scalable, parallel execution.  
+- **Simulation** provides persistent form and structure.  
+- **Neural dynamics** provide adaptation and memory.  
+
+Signals propagate. Potentials integrate. Behavior emerges. Computation remembers, adapts, and persists.
+
+---
+
+**Source Code:** [Full implementation on GitHub](https://github.com/sptlco/spatial)  
+
+**References:**  
+
+- *Liquid Time-constant Recurrent Neural Networks as Universal Approximators* — [arXiv:1811.00321](https://arxiv.org/pdf/1811.00321)  
+- *Liquid Time-constant Networks* — [arXiv:2006.04439](https://arxiv.org/pdf/2006.04439)  
+- *Dynamic Circular Work-Stealing Deque* — [PDF](https://www.dre.vanderbilt.edu/~schmidt/PDF/work-stealing-dequeue.pdf)
+- *Liquid Neural Networks* — [Lecture](https://www.youtube.com/watch?v=IlliqYiRhMU&t=1970s)

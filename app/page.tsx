@@ -1,65 +1,165 @@
-import Image from "next/image";
+// Copyright © Spatial Corporation. All rights reserved.
 
-export default function Home() {
+import { clsx } from "clsx";
+
+import { Button, Container, Footer, Head, Icon, Link, Navigation, Page, Tag, Text, Timeline, View } from "@dakarai/components";
+
+const skills = [
+  {
+    name: "Web & Programming",
+    color: "bg-blue",
+    skills: [
+      "C#",
+      "C++",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "API Development",
+      "Full-Stack Development"
+    ]
+  },
+  {
+    name: "Software Engineering & DevOps",
+    color: "bg-lime",
+    skills: [
+      "Git Version Control",
+      "CI/CD Pipelines",
+      "DevOps Practices",
+      "Project Management",
+      "Testing & Debugging",
+      "Software Architecture",
+      "Cloud Platforms (AWS / Azure)"
+    ]
+  },
+  {
+    name: "AI & Machine Learning",
+    color: "bg-red",
+    skills: [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Networks",
+      "Data Analysis",
+      "Mathematics & Statistics",
+      "Computer Vision",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    name: "Game & Interactive Design",
+    color: "bg-yellow",
+    skills: ["Game Design", "Level Design", "3D Modeling & Animation", "Physics Simulations", "User Experience (UX) Design"]
+  },
+  {
+    name: "Creative Arts & Media",
+    color: "bg-cyan",
+    skills: ["Graphic Design", "Filming & Videography", "Video Editing", "Photography", "Digital Illustration", "Motion Graphics"]
+  },
+  {
+    name: "Lifestyle",
+    color: "bg-magenta",
+    skills: [
+      "Physical Training",
+      "Fitness Programming",
+      "Wellness Coaching",
+      "Nutrition",
+      "Cooking",
+      "Mindfulness & Meditation",
+      "Hair Design & Styling",
+      "Problem Solving",
+      "Critical Thinking",
+      "Collaboration",
+      "Leadership"
+    ]
+  }
+];
+
+/**
+ * Create a new landing page component.
+ * @returns A landing page component.
+ */
+export default function Landing() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <Page>
+      <div className="absolute top-0 left-0 -z-10 w-screen h-screen flex justify-center md:justify-end overflow-hidden">
+        <Head />
+      </div>
+      <View innerClassName="py-32 md:py-64 h-full relative" align="center">
+        <Text>
+          <span className="-ml-2 text-9xl md:text-display font-bold uppercase whitespace-nowrap">
+            <span className="inline-block transform -scale-x-100">B</span>
+            <span className="-tracking-[0.175em] -ml-8 md:-ml-16">rand</span>
+          </span>
+          <br />
+          <span className="text-3xl md:text-6xl uppercase">By Dakarai</span>
+        </Text>
+      </View>
+      <View className="py-16" direction="column" align="center" innerClassName="bg-background-subtle rounded-4xl py-16 md:py-24 px-8" gap={64}>
+        <Tag className="bg-white! text-foreground-inverse!">About me</Tag>
+        <Text className="text-xl md:max-w-1/2 text-center">
+          <strong>Dakarai Cundiff (n.)</strong> &mdash; A man of faith, devoted son, uncle, and brother; driven by a passion for technology and a
+          desire to make a positive impact. Known for bold leadership, focused dedication, and a commitment to excellence; strives to share knowledge
+          and inspire others along the way.
+        </Text>
+      </View>
+      <View className="py-32 md:py-64 items-center! md:items-start!" direction="column" justify="center" gap={64}>
+        <Tag className="self-center! md:self-start!">Insight</Tag>
+        <Container direction="column" className="text-2xl md:text-6xl font-extrabold uppercase w-full gap-4! md:gap-0!">
+          <Text>You can learn the technique,</Text>
+          <Text>But true passion is cultivated through</Text>
+          <Text>Dedication, love, pride and respect in your work.</Text>
+        </Container>
+      </View>
+      <View className="py-16" direction="column" align="center" innerClassName="md:max-w-1/2" gap={96}>
+        <Tag>Evolution</Tag>
+        <Timeline />
+      </View>
+      <View className="py-16" direction="column" align="center" innerClassName="md:max-w-1/2" gap={96}>
+        <Tag>Passion</Tag>
+        <Container justify="center" gap={16} wrap>
+          {shuffle(skills.flatMap((group) => group.skills.map((skill) => ({ skill, color: group.color })))).map((skill, i) => (
+            <Tag key={i} className="normal-case! font-normal flex items-center gap-3">
+              <span className={clsx("w-2 h-2 rounded-full inline-block", skill.color)} />
+              {skill.skill}
+            </Tag>
+          ))}
+        </Container>
+      </View>
+      <View className="py-32 pb-0!" direction="column" align="center" gap={32}>
+        <Tag>Open Thoughts</Tag>
+        <Link href="/blog">
+          <Button className="bg-button-secondary hover:bg-button-secondary-hover active:bg-button-secondary-active">View all</Button>
+        </Link>
+      </View>
+      <View innerClassName="py-32 md:py-64" justify="center" align="center">
+        <Link href="https://buymeacoffee.com/mrcundiff" target="_blank" className="flex items-center gap-4 md:gap-16">
+          <Text className="text-5xl md:text-9xl">Support</Text>
+          <Icon vector="north_east" size={96} />
+        </Link>
+      </View>
+    </Page>
   );
+}
+
+function random(seed: number) {
+  return function () {
+    const x = Math.sin(seed++) * 10000;
+    return x - Math.floor(x);
+  };
+}
+
+function shuffle<T>(array: T[], seed: number = 10): T[] {
+  const rand = random(seed);
+  const result = [...array];
+
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+
+  return result;
 }

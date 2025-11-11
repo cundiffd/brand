@@ -1,0 +1,21 @@
+﻿export const metadata = {
+    title: 'Compute, compute, compute!',
+    description: 'I create a computer.',
+    openGraph: {
+        title: 'Compute, compute, compute!',
+        description: 'I create a computer.',
+        images: [{ url: '/og/compute' }]
+    }
+}
+
+Recently, I designed and implemented a processor in .NET that leverages system cores for parallel job execution. This "compute engine" as I've called it abstracts computational work into reusable jobs. These jobs are user-defined, scheduled and distributed across multiple logical CPU cores!
+
+## Agents
+The bulk of the system's execution logic is done by what are called "agents". There are N - 1 agents spun up at runtime (where N is the number of logical cores available to the .NET process). These agents operate in an opportunistic fashion, continously pulling work from the scheduler's master queue firstly, and then proceeding to steal work from its peers. In this way, the entire load of the system is shared amongst its agents.
+
+## Existential Basis
+Let us mow break down the existential basis which underlies the behavior of this system. In the same way that the system I described above optimizes its computational functions with distributed workload agents, can it not be said that optimal systems in the workplace ought to behave in the same way?
+
+On the outside, there is a "master queue", work to be done. But internally, all of the system's agents (ideally, and tenaciously) execute said work. In underperforming systems, teams, and such, there are often out performers, and slackers. Some agents wait for the scheduler to assign work to them, and some prefer to sleep all day. The most optimal workers, though, know only one thing, and that is to work.
+
+Thus, in life we should strive to be like these agents!
