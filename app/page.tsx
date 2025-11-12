@@ -2,7 +2,7 @@
 
 import { clsx } from "clsx";
 
-import { Button, Container, Footer, Head, Icon, Link, Navigation, Page, Tag, Text, Timeline, View } from "@dakarai/components";
+import { Button, Container, Head, Icon, Link, Page, Tag, Text, Thoughts, Timeline, View } from "@dakarai/components";
 
 const skills = [
   {
@@ -129,8 +129,9 @@ export default function Landing() {
           ))}
         </Container>
       </View>
-      <View className="py-32 pb-0!" direction="column" align="center" gap={32}>
+      <View className="py-32 pb-0!" direction="column" align="center" gap={128}>
         <Tag>Open Thoughts</Tag>
+        <Thoughts />
         <Link href="/blog">
           <Button className="bg-button-secondary hover:bg-button-secondary-hover active:bg-button-secondary-active">View all</Button>
         </Link>

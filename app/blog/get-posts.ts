@@ -7,6 +7,7 @@ export type Post = {
   date: string;
   volume: number;
   title: string;
+  thumbnail?: string;
   views: number;
   viewsFormatted: string;
 };

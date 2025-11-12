@@ -9,15 +9,6 @@ export async function generateStaticParams() {
   return (await getPosts()).map((post) => ({ id: post.id }));
 }
 
-// fonts
-const inter300 = readFileSync(join(process.cwd(), "node_modules", "@fontsource", "inter", "files", "inter-latin-300-normal.woff"));
-
-const inter500 = readFileSync(join(process.cwd(), "node_modules", "@fontsource", "inter", "files", "inter-latin-500-normal.woff"));
-
-const inter600 = readFileSync(join(process.cwd(), "node_modules", "@fontsource", "inter", "files", "inter-latin-600-normal.woff"));
-
-const robotoMono400 = readFileSync(join(process.cwd(), "node_modules", "@fontsource", "roboto-mono", "files", "roboto-mono-latin-400-normal.woff"));
-
 export async function GET(_req: Request, props) {
   const params = await props.params;
 
@@ -55,25 +46,7 @@ export async function GET(_req: Request, props) {
     ),
     {
       width: 1200,
-      height: 630,
-      fonts: [
-        {
-          name: "Inter 300",
-          data: inter300
-        },
-        {
-          name: "Inter 500",
-          data: inter500
-        },
-        {
-          name: "Inter 600",
-          data: inter600
-        },
-        {
-          name: "Roboto Mono 400",
-          data: robotoMono400
-        }
-      ]
+      height: 630
     }
   );
 }
