@@ -38,6 +38,15 @@ const nextConfig: NextConfig = withMDX({
         pathname: "/**"
       }
     ]
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:year(\\d{4})/:id",
+        destination: "/blog/post/:id",
+        permanent: true
+      }
+    ];
   }
 });
 
