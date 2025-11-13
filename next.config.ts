@@ -45,6 +45,11 @@ const nextConfig: NextConfig = withMDX({
         source: "/:year(\\d{4})/:id",
         destination: "/blog/post/:id",
         permanent: true
+      },
+      {
+        source: "/volume/:v(\\d{4})",
+        destination: "/blog/volume/:v",
+        permanent: true
       }
     ];
   }
