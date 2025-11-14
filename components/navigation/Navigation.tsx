@@ -19,7 +19,7 @@ import { Button } from "../button";
 const links: { label: string; href: string; target?: string }[] = [
   { label: "Home", href: "/" },
   { label: "Thoughts", href: "/blog" },
-  { label: "Work", href: "https://github.com/cundiff", target: "_blank" },
+  { label: "Work", href: "https://github.com/cundiffd", target: "_blank" },
   { label: "Support", href: "https://buymeacoffee.com/mrcundiff", target: "_blank" }
 ];
 
