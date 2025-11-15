@@ -19,6 +19,7 @@ import { Button } from "../button";
 const links: { label: string; href: string; target?: string }[] = [
   { label: "Home", href: "/" },
   { label: "Thoughts", href: "/blog" },
+  { label: "University", href: "/university" },
   { label: "Work", href: "https://github.com/cundiffd", target: "_blank" },
   { label: "Support", href: "https://buymeacoffee.com/mrcundiff", target: "_blank" }
 ];
@@ -64,7 +65,7 @@ export const Navigation: FC = () => {
                   <Dialog.Title>Navigation</Dialog.Title>
                   <Dialog.Description>A site navigation menu.</Dialog.Description>
                 </Hidden>
-                <View className={clsx("fixed top-0 py-4", { "py-8 md:py-24": !scrolled })} align="center">
+                <View className="fixed top-0 py-4" align="center">
                   <Dialog.Close asChild>
                     <Button className="p-2! rounded-2xl! bg-background-base hover:bg-button-ghost-hover data-[state=open]:bg-button-ghost-active">
                       <Icon vector="arrow_left_alt" size={32} />
@@ -73,9 +74,9 @@ export const Navigation: FC = () => {
                 </View>
                 <View direction="column" gap={48} justify="center" className="h-full pointer-none" innerClassName="h-full">
                   {links.map((link, i) => (
-                    <Link href={link.href} target={link.target} key={i} className="flex items-center space-x-8">
+                    <Link href={link.href} target={link.target} key={i} className="flex items-center space-x-4 md:space-x-8">
                       <Text className="text-5xl md:text-9xl font-normal">{link.label}</Text>
-                      {link.target && <Icon vector="north_east" size={72} />}
+                      {link.target && <Icon vector="north_east" size={64} />}
                     </Link>
                   ))}
                 </View>

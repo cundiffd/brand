@@ -95,7 +95,7 @@ export default function Landing() {
             <span className="-tracking-[0.175em] -ml-8 md:-ml-16">rand</span>
           </span>
           <br />
-          <span className="text-3xl md:text-6xl uppercase">By Dakarai</span>
+          <span className="text-2xl md:text-4xl uppercase">By Dakarai</span>
         </Text>
       </View>
       <View className="py-16" direction="column" align="center" innerClassName="bg-background-subtle rounded-4xl py-16 md:py-24 px-8" gap={64}>
