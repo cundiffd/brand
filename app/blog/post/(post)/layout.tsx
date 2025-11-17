@@ -10,19 +10,21 @@ export default async function Layout({ children }) {
   return (
     <Page>
       <View>
-        <article className="w-full text-gray-800 dark:text-gray-300 mb-10">
+        <article className="w-full text-gray-800 dark:text-gray-300 mb-10 text-center">
           <Header posts={posts} />
 
           {children}
 
-          <p className="text-xs pt-4 text-center text-gray-500 dark:text-gray-500">
+          <p className="text-xs pt-4 text-center text-foreground-secondary">
             You reached the end, thanks for reading.
             <br />
-            Do these posts resonate with you? Consider supporting the blog:
+            Do these posts resonate with you?
             <br />
-            <a className="text-foregroudn-primary" href="https://buymeacoffee.com/mrcundiff">
-              Buy me a book
+            Consider supporting the blog by{" "}
+            <a className="text-foreground-primary" href="https://buymeacoffee.com/mrcundiff">
+              buying me a book
             </a>
+            .
           </p>
         </article>
       </View>
