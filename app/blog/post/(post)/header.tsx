@@ -23,9 +23,9 @@ export function Header({ posts }: { posts: Post[] }) {
 
   return (
     <>
-      <h1 className="text-2xl font-bold mb-1 dark:text-gray-100">{post.title}</h1>
+      <h1 className="text-2xl font-bold mb-1">{post.title}</h1>
 
-      <p className="font-mono flex text-xs text-gray-500 dark:text-gray-500">
+      <p className="font-mono inline-flex text-xs">
         <span>
           <span className="hidden md:inline">
             <span>Dakarai, </span>
@@ -38,10 +38,6 @@ export function Header({ posts }: { posts: Post[] }) {
           <span suppressHydrationWarning={true}>
             {post.date} ({ago(post.date, true)} ago)
           </span>
-        </span>
-
-        <span className="pr-1.5">
-          <Views id={post.id} mutate={mutate} defaultValue={post.viewsFormatted} />
         </span>
       </p>
     </>
