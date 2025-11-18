@@ -2,7 +2,7 @@
 
 import { clsx } from "clsx";
 
-import { Button, Container, Head, Icon, Link, Page, Tag, Text, Thoughts, Timeline, View } from "@dakarai/components";
+import { Button, Container, Head, Icon, Image, Link, Page, Tag, Text, Thoughts, Timeline, View } from "@dakarai/components";
 
 const skills = [
   {
@@ -88,15 +88,11 @@ export default function Landing() {
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen flex justify-center md:justify-end overflow-hidden">
         <Head />
       </div>
-      <View innerClassName="py-32 md:py-64 h-full relative" align="center">
-        <Text>
-          <span className="-ml-2 text-9xl md:text-display font-bold uppercase whitespace-nowrap">
-            <span className="inline-block transform -scale-x-100">B</span>
-            <span className="-tracking-[0.175em] -ml-8 md:-ml-16">rand</span>
-          </span>
-          <br />
-          <span className="text-2xl md:text-4xl uppercase">By Dakarai</span>
-        </Text>
+      <View className="h-[60vh]" innerClassName="h-full" gap={32} direction="column" align="center" justify="center">
+        <Tag>Welcome</Tag>
+        <Container className="w-48 md:w-96">
+          <Image src="/dakarai.jpeg" className="rounded-full overflow-hidden" alt="Dakarai" />
+        </Container>
       </View>
       <View className="py-16" direction="column" align="center" innerClassName="bg-background-subtle rounded-4xl py-16 md:py-24 px-8" gap={64}>
         <Tag className="bg-white! text-foreground-inverse!">About me</Tag>
@@ -108,10 +104,20 @@ export default function Landing() {
       </View>
       <View className="py-32 md:py-64 items-center! md:items-start!" direction="column" justify="center" gap={64}>
         <Tag className="self-center! md:self-start!">Insight</Tag>
-        <Container direction="column" className="text-2xl md:text-6xl font-extrabold uppercase w-full gap-4! md:gap-0!">
+        <Container
+          direction="column"
+          className="text-2xl items-center! md:items-start! text-center md:text-left md:text-6xl font-extrabold uppercase w-full gap-4! md:gap-0!"
+        >
           <Text>You can learn the technique,</Text>
           <Text>But true passion is cultivated through</Text>
           <Text>Dedication, love, pride and respect in your work.</Text>
+
+          <Link href="/university" target="_blank" className="mt-4">
+            <Button className="text-xs md:text-base bg-button-primary hover:bg-button-primary-hover active:bg-button-primary-active font-bold space-x-4">
+              <span>University: Enroll for Spring 2026</span>
+              <Icon vector="north_east" size={24} />
+            </Button>
+          </Link>
         </Container>
       </View>
       <View className="py-16" direction="column" align="center" innerClassName="md:max-w-1/2" gap={96}>

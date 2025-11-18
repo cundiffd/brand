@@ -14,5 +14,10 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
  * @returns A button component.
  */
 export const Button: FC<ButtonProps> = ({ className, ...props }: ButtonProps) => {
-  return <button {...props} className={clsx("cursor-pointer", "transition-all", "inline-flex items-center", "rounded-full px-8 h-12", className)} />;
+  return (
+    <button
+      {...props}
+      className={clsx("cursor-pointer", "transition-all", "inline-flex items-center whitespace-nowrap", "rounded-full px-8 h-12", className)}
+    />
+  );
 };
