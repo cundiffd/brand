@@ -42,19 +42,7 @@ export function Posts({ volume, posts: initialPosts }) {
             {sort[0] === "date" && sort[1] === "asc" && "↑"}
           </button>
           <span className="grow pl-2">title</span>
-          <button
-            onClick={sortViews}
-            className={`
-                  h-9
-                  pl-4
-                  ${sort[0] === "views" ? "text-gray-700 dark:text-gray-400" : ""}
-                `}
-          >
-            views
-            {sort[0] === "views" ? (sort[1] === "asc" ? "↑" : "↓") : ""}
-          </button>
         </header>
-
         <List posts={posts} sort={sort} />
       </main>
     </Suspense>
@@ -96,8 +84,6 @@ function List({ posts, sort }) {
                   {firstOfYear && <span className="w-14 inline-block self-start shrink-0 text-gray-500 dark:text-gray-500">{year}</span>}
 
                   <span className="grow dark:text-gray-100">{post.title}</span>
-
-                  <span className="text-gray-500 dark:text-gray-500 text-xs">{post.viewsFormatted}</span>
                 </span>
               </span>
             </Link>
