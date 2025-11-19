@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "finance-template",
+      "date": "November 19, 2025",
+      "volume": 2,
+      "title": "Finance Template"
+    },
+    {
       "id": "turtle-hermits-training",
       "date": "November 16, 2025",
       "volume": 2,
